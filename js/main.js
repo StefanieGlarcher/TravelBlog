@@ -1,1 +1,1 @@
-gsap.to("#logo", { duration: 3, x: 20 });
+gsap.to("#logo", { duration: 3, x: 50 });
