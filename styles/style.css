@@ -1,8 +1,20 @@
+#logoTitel {
+  display: flex;
+  flex-flow: column wrap;
+  
+
+}
+
 #logo {
+  display: flex;
   width: 100px;
   height: 100px;
   margin-top: 10px;
   margin-right: 0px;
+}
+
+#titel {
+  display: flex;
 }
 
 #welcome-banner {
