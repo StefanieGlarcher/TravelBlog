@@ -18,3 +18,14 @@ function canvasColor() {
   ctx.fillRect(10, 10, 150, 80);
 }
 canvasColor();
+
+var $scrollLogo = $(".scrollLogo");
+var $win = $(window);
+$win.on("scroll", function () {
+  // Will give use a number, in pixels, that the browser has scrolled down
+  console.log($win.scrollTop());
+  var top = $win.scrollTop();
+  $scrollLogo.css("transform", "rotate(" + top + "deg)");
+
+  var topPixels = $win.scrollTop();
+});
