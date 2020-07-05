@@ -1,8 +1,6 @@
 #logoTitel {
   display: flex;
   flex-flow: column wrap;
-  
-
 }
 
 #logo {
@@ -117,4 +115,15 @@ h2 {
     fill: rgb(255, 0, 170);
     width: 200px;
   }
+}
+
+@mixin center-v() {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+body {
+  overflow-x: hidden;
 }
