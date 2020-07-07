@@ -112,7 +112,7 @@ a.navbar-brand {
 p.groove {
   width: 750px;
   height: 150px;
-  border-style: groove;
+  border-style: ridge;
 }
 
 #picLeftBlog {
@@ -143,4 +143,8 @@ p.groove {
   margin-top: 50px;
   margin-bottom: 20px;
   font-size: 18px;
+}
+
+#landBlog {
+  font-weight: bold;
 }
