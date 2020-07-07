@@ -18,6 +18,24 @@
   margin-top: 40px;
 }
 
+.titleInNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Snell Roundhand;
+  font-style: italic;
+  color: #a901db;
+}
+
+#titelBlog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Snell Roundhand;
+  font-style: italic;
+  color: #a901db;
+}
+
 strong {
   font-size: 50px;
 }
@@ -61,6 +79,7 @@ a.navbar-brand {
 #city {
   width: 200px;
   height: 200px;
+  object-fit: cover;
   margin-top: 80px;
   border-radius: 5px;
 }
@@ -68,6 +87,7 @@ a.navbar-brand {
 #matterhorn {
   width: 200px;
   height: 200px;
+  object-fit: cover;
   margin-top: 80px;
   margin-left: 60px;
   border-radius: 5px;
@@ -76,6 +96,7 @@ a.navbar-brand {
 #yellowstone {
   width: 200px;
   height: 200px;
+  object-fit: cover;
   margin-top: 80px;
   margin-left: 60px;
   border-radius: 5px;
@@ -92,6 +113,27 @@ p.groove {
   width: 750px;
   height: 150px;
   border-style: groove;
+}
+
+#picLeftBlog {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+#picRightBlog {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.textLeftBlog {
+  width: 750px;
+  height: 190px;
 }
 
 .impressum {
