@@ -6,9 +6,6 @@
 }
 
 .bg-img {
-  /* The image used */
-  background-image: url("../images/fam.jpg");
-
   min-height: 700px;
 
   /* Center and scale the image nicely */
@@ -36,11 +33,12 @@
 /* Navbar links */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #79079c;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: bold;
 }
 
 .topnav a:hover {

@@ -93,3 +93,8 @@ p.groove {
   height: 150px;
   border-style: groove;
 }
+
+.impressum {
+  margin-top: 50px;
+  margin-left: 100px;
+}
