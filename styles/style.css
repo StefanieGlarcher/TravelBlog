@@ -1,6 +1,5 @@
-#logoTitel {
+.logoTitel {
   display: flex;
-  flex-flow: column wrap;
 }
 
 #logo {
@@ -9,6 +8,18 @@
   height: 100px;
   margin-top: 10px;
   margin-right: 0px;
+}
+
+#titel {
+  font-family: Snell Roundhand;
+  font-style: italic;
+  color: #a901db;
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+strong {
+  font-size: 50px;
 }
 
 .carouselCenter {
@@ -31,10 +42,6 @@
   max-width: 900px;
 }
 
-#titel {
-  display: flex;
-}
-
 #welcome-banner {
   width: 100%;
   height: 400px;
@@ -42,13 +49,6 @@
 
 a.navbar-brand {
   text-align: center;
-}
-
-h2 {
-  font-family: Snell Roundhand;
-  font-style: italic;
-  color: #a901db;
-  margin-left: 150px;
 }
 
 .imagesCenter {
