@@ -137,6 +137,10 @@ p.groove {
 }
 
 .impressum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 50px;
-  margin-left: 100px;
+  margin-bottom: 20px;
+  font-size: 18px;
 }
