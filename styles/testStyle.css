@@ -1,0 +1,78 @@
+#testcss {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 255, 255, 0.849);
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-color: rgb(4, 0, 255);
+  }
+  25% {
+    background-color: rgb(140, 0, 255);
+  }
+  50% {
+    background-color: rgb(195, 0, 255);
+  }
+  100% {
+    background-color: rgb(117, 98, 115);
+  }
+}
+
+#texttest {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#svganimation {
+  animation-name: changing;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes changing {
+  0% {
+    fill: rgb(145, 3, 201);
+    width: 20px;
+  }
+  100% {
+    fill: rgb(255, 0, 170);
+    width: 200px;
+  }
+}
+
+@mixin center-v() {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  margin: 75vh 0;
+}
+
+.scrollLogo {
+  display: block;
+  margin: 0 auto;
+}
