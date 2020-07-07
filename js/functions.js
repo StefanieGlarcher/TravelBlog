@@ -19,13 +19,16 @@ function canvasColor() {
 }
 canvasColor();
 
-var $scrollLogo = $(".scrollLogo");
-var $win = $(window);
-$win.on("scroll", function () {
-  // Will give use a number, in pixels, that the browser has scrolled down
-  console.log($win.scrollTop());
-  var top = $win.scrollTop();
-  $scrollLogo.css("transform", "rotate(" + top + "deg)");
+function scrollAnimation() {
+  var $scrollLogo = $(".scrollLogo");
+  var $win = $(window);
+  $win.on("scroll", function () {
+    // Will give use a number, in pixels, that the browser has scrolled down
+    console.log($win.scrollTop());
+    var top = $win.scrollTop();
+    $scrollLogo.css("transform", "rotate(" + top + "deg)");
 
-  var topPixels = $win.scrollTop();
-});
+    var topPixels = $win.scrollTop();
+  });
+}
+scrollAnimation();

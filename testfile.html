@@ -2,21 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Title</title>
+    <title>TestFile</title>
     <link rel="stylesheet" href="styles/testStyle.css" />
     <link rel="stylesheet" href="styles/chatbot.css" />
   </head>
   <body>
+    <h1>Test Animationen</h1>
+
+    <div class="container">
+
+    <h2>SVG Image</h2>
     <img alt="logo" src="images/Logo.svg" id="logo" />
 
+    <h2>Eigene Videos mit Ton</h2>
     <video src="video/biber.mp4" controls autoplay height="320" widht="240">
       Ihr Browser kann dieses Video nicht wiedergeben.
     </video>
-
     <video src="video/see.mp4" controls autoplay height="320" widht="240">
       Ihr Browser kann dieses Video nicht wiedergeben.
     </video>
 
+    <h2>SVG Polygon</h2>
     <svg width="300" height="210">
       <polygon
         points="100,10 40,198 190,78 10,78 160,198"
@@ -28,7 +34,23 @@
         "
       />
     </svg>
+    <h2>SVG Animation</h2>
+    <svg width="120" height="120" viewBox="0 0 120 120">
+      <polygon points="60,30 90,90 30,90">
+        <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/>
+      </polygon>
+    </svg>
+    <svg viewBox="0 0 500 100">
+      <rect id="svganimation" x="10" y="10" width="10" height="10" />
+    </svg>
 
+    <h2>CSS Animation</h2>
     <div id="testcss"></div>
 
     <p id="texttest">
@@ -37,7 +59,10 @@
       1500s, when an unknown printer took a galley of type and scrambled it to
       make a type specimen book.
     </p>
+  </br>
 
+
+    <h2>HTML5-Canvas-Grafiken</h2>
     <canvas
       id="myCanvas"
       width="200"
@@ -46,7 +71,6 @@
     >
       Your browser does not support the HTML canvas tag.</canvas
     >
-
     <canvas
       id="canvasVerlauf"
       width="200"
@@ -56,17 +80,20 @@
       Your browser does not support the HTML canvas tag.</canvas
     >
   </br>
+  <h2>Sound / Audio</h2>
     <audio controls>
       <source src="audio/bird_sound.mp3" type="audio/mpeg" />
       Your browser does not support the audio element.
     </audio>
   </br></br>
 
+  <h2>Scroll-Activated Animation</h2>
   <section>
     <img class="scrollLogo" alt="logo" src="images/Logo.svg" id="logoScroll" />
   </section>
   </br>
 
+  <h2>chatbot</h2>
   <div id="output"></div>   
   <div id="container">
     <input type="text" id="input" value="">
@@ -74,11 +101,8 @@
   <!-- jquery for enter key press -->      
   <script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
 
-    <svg viewBox="0 0 300 100">
-      <rect id="svganimation" x="10" y="10" width="10" height="10" />
-    </svg>
-
     <script src="js/functions.js"></script>
     <script src="js/chatbot.js"></script>
+  </div>
   </body>
 </html>

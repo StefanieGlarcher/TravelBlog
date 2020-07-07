@@ -1,3 +1,8 @@
+.container {
+  margin-left: 50px;
+}
+
+
 #testcss {
   width: 100px;
   height: 100px;
@@ -75,4 +80,12 @@ section {
 .scrollLogo {
   display: block;
   margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin-bottom: 10px;
 }
